@@ -261,6 +261,12 @@ img {
     }  
 }
 
+@media(max-width: 768px) {
+    .forest-logo {
+        display: none;
+    }  
+}
+
 @media(max-width: 900px) {
     .watch, .rotatethis, .hero-title p, .hero-gif, .forest-logo {
         display: none;
@@ -274,4 +280,10 @@ img {
     .hero-title h1 {
         font-size: 32px;
     }
+}
+
+@media(max-width: 500px) {
+    .listensong {
+        display: none;
+    }  
 }
