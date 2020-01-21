@@ -290,6 +290,8 @@ img {
 
 @media(max-width: 500px) {
     .listensong {
-        display: none;
+        position: absolute;
+        top: 80%;
+        left: 20%;
     }  
 }
