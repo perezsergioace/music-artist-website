@@ -45,7 +45,8 @@
             </div>
 
             <div class="forest-logo">
-                <img id="forest-image" src="https://pbs.twimg.com/profile_images/830410523887992833/Ny3r89-__400x400.jpg">
+                <img id="forest-image"
+                    src="https://pbs.twimg.com/profile_images/830410523887992833/Ny3r89-__400x400.jpg">
             </div>
 
             <div class="social-media">
@@ -59,7 +60,10 @@
             <div class="listensong">
                 <ul>
                     <li>
-                        <ion-icon name="play"></ion-icon>
+                        <input type="button" id="play-input" value="►" onclick="play()">
+                        <audio id="audio" src="DT.mp3">
+                            <ion-icon name="play" class="play" id="play"></ion-icon>
+                        </audio>
                     </li>
                     <li>
                         <ion-icon name="musical-notes"></ion-icon>
@@ -70,6 +74,7 @@
                     <li>
                         <ion-icon name="videocam"></ion-icon>
                     </li>
+
                 </ul>
             </div>
 
@@ -81,6 +86,7 @@
 
     <script type="text/javascript" src="https://rawgit.com/peterhry/CircleType/master/dist/circletype.min.js"></script>
     <script type="text/javascript" src="./index.js"></script>
+    <script src="./play-pause-button.js"></script>
 </body>
 
 </html>

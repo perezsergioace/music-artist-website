@@ -210,6 +210,12 @@ a {
     padding: 0 10px;
 }
 
+input {
+    position: absolute;
+    top: -18px;
+    margin: 0 -20px;
+}
+
 #rotated {
     color: #fff;
     font-family: "Helvetica";
